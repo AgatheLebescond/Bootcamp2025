@@ -1,0 +1,14 @@
+URL: https://github.com/AgatheLebescond/Bootcamp2025/blob/main/D2W1exercices-2.ipynb
+suggestions for improvement:
+- **Exercise 2:** The bonus part (user input) is not fully implemented; it only allows adding family members, but the calculation does not adjust for the new entries.  It should dynamically calculate the total cost after each addition.
+- **Exercise 3:**  The code correctly modifies and accesses the dictionary, but the 'more_on_zara' bonus part is missing.
+- **Exercise 4:** The default country value is hardcoded; it should be a parameter with a default value as stated in the instructions. The function should be more flexible in case a different default country would be needed.
+- **Exercise 5:** The function should handle non-numeric input gracefully and check that the input is within the required range of 1 to 100,  The code should explicitly print success or failure, rather than just having an if/else that implies success.
+- **Exercise 7:** The bonus sections (floating-point temperatures and season-based temperature ranges) are implemented, but the user input for the month should be validated to ensure it is a number between 1 and 12. The temperature advice should be more specific to the temperature and the season.
+- **Exercise 8:** The code doesn't handle cases where the user enters a topping that is not in the `toppings` list. It should include input validation, handle invalid toppings gracefully, and provide feedback to the user.  Consider using a more efficient data structure for toppings (e.g., a set).
+Brief justification:
+- correctness: Most exercises are implemented correctly, solving the core functionality. However, some bonus parts and error handling are missing or incomplete, as detailed in the feedback section. The chapter states the need to handle user input and data validation, and this is lacking in some exercises.
+- readability: The code is generally well-structured and easy to follow. Variable names are mostly descriptive, and the logic is clear in most cases.  However, some improvements are needed to make it more consistent and readable, such as adding more comments and improving the structure of certain exercises.
+- performance: The code is efficient for the tasks it performs. No major performance bottlenecks are present.  The use of `zip` and dictionary comprehensions in Exercise 1 is efficient. The pizza code iterates only through the toppings, and doesn't have unnecessary nested loops or calculations.
+- security: The code does not introduce any security vulnerabilities. There is no interaction with external systems or user-supplied data that could be exploited.
+
