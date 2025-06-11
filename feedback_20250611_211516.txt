@@ -1,0 +1,12 @@
+URL: https://github.com/AgatheLebescond/Bootcamp2025/blob/main/Week_2Day_3DailyChallenge.ipynb
+suggestions for improvement:
+- The code doesn't fully implement the `get_short_info` and `get_animal_types` methods as required in the bonus section.  These methods are entirely missing.
+- The `get_info` method's formatting could be improved to handle varying animal name lengths more robustly. Currently, the alignment is only approximate.
+- Add more comprehensive test cases to ensure that the `add_animal` method correctly handles multiple additions of the same animal type and different counts.
+- The docstrings for methods could be more detailed and informative.
+Brief justification:
+- correctness: The code implements the `Farm` class, `__init__`, `add_animal`, and `get_info` methods correctly, fulfilling the core requirements of the chapter.  However, it omits the bonus features (Step 6 and Step 7), resulting in a lower score. The example output was only partially replicated (it passed the basic test but did not contain the required multiple animal examples).
+- readability: The code is well-structured and easy to follow.  Variable names are descriptive and the logic is straightforward.  However, the `get_info` formatting could be more flexible to handle variable-length animal names effectively.
+- performance: The performance of the provided code is excellent. The algorithms used are efficient for the given tasks, with time complexity being linear for the main operations. No significant performance optimizations are needed.
+- security: The code doesn't present any security vulnerabilities. It deals only with basic data types and doesn't interact with external resources that could introduce security risks.
+
