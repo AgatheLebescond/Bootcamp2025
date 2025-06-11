@@ -1,0 +1,11 @@
+URL: https://github.com/AgatheLebescond/Bootcamp2025/blob/main/DChallengeD2.ipynb
+suggestions for improvement:
+- The code should prompt the user for input instead of using a predefined list of words.
+- The output format should strictly adhere to the examples provided.  Currently, it includes punctuation in the dictionary when it's not in the examples.  Consider filtering out non-alphabetic characters.
+- Add more comprehensive docstrings to the function, explaining parameters, return values, and the function's purpose.
+Brief justification:
+- correctness: The core logic of the `create_letter_index` function correctly maps letters to their indices in a word. It handles multiple occurrences of the same letter and creates lists for the indices.  However, it deviates by not taking user input and by improperly handling input containing punctuation which is not reflected in the examples. The requirement states that the program should 'ask a user for a word', which this code does not do.  The handling of commas and spaces in the second example also violates the implicit requirement that only letters should be handled, judging from the provided examples. Therefore it scores 90% instead of 100%.
+- readability: The code is well-structured, uses clear variable names, and is generally easy to understand.  The use of `enumerate` is efficient and readable.  Adding a more comprehensive docstring would enhance readability further.
+- performance: The function's time complexity is O(n), where n is the length of the word, which is efficient for this task. There are no unnecessary computations or data structures that would impact performance.
+- security: The code doesn't involve any security-sensitive operations, so there are no security concerns.
+
