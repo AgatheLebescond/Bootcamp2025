@@ -1,0 +1,11 @@
+URL: https://github.com/AgatheLebescond/Bootcamp2025/blob/main/Week_2Day_3DailyChallenge.ipynb
+suggestions for improvement:
+- The code doesn't fully implement the `add_animal` method as specified.  It correctly adds animals, but it doesn't handle the case where `count` is greater than 1 when adding an existing animal type. It also doesn't implement the bonus steps (get_animal_types and get_short_info).
+- The formatting in `get_info` is good, but the instructions asked for a specific formatting that aligns the animal names and counts into columns, using string formatting features.
+- Add the `get_animal_types` and `get_short_info` methods as per the bonus steps.
+Brief justification:
+- correctness: The `Farm` class is created and the `__init__`, `add_animal`, and `get_info` methods are implemented.  However, the `add_animal` method's handling of the `count` parameter when adding existing animal types needs improvement to fully meet the requirements. The bonus methods are missing.
+- readability: The code is well-structured and easy to understand.  Variable names are descriptive, and the logic is straightforward. The comments are helpful in explaining the code's functionality.
+- performance: The code's performance is efficient for its task.  The dictionary operations are generally fast, and there are no obvious performance bottlenecks.
+- security: There are no security concerns in this code. It only deals with string manipulation and dictionary operations; there's no user input or external data handling that would introduce security risks.
+
